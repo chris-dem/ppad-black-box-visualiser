@@ -4,15 +4,15 @@ module Main where
 
 import Graphics.Gloss
 
-window :: Display
 --- Window with name size and position
+window :: Display
 window = InWindow "Nice window?" (600, 800) (100, 100)
 
 bgColour :: Color
-bgColour = white
+bgColour = black
 
 drawing :: Picture
-drawing = circle 80
+drawing = color white $ circle 80
 
 main :: IO ()
 main = display window bgColour drawing

@@ -8,7 +8,7 @@
 {-# LANGUAGE UndecidableInstances #-}
 {-# OPTIONS_GHC -fplugin GHC.TypeLits.Normalise #-}
 
-module Lib.CircuitType where
+module Lib.ComputationModels.CircuitType where
 
 import Data.Foldable1 qualified as S
 import Data.Kind (Type)
@@ -16,6 +16,7 @@ import Data.List (intercalate)
 import Data.Proxy
 import Data.Sequence qualified as S
 import GHC.TypeNats
+import Lib.ComputationModels.ClassDefs
 import Lib.HList
 import Text.Printf (printf)
 
