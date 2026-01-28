@@ -12,24 +12,12 @@ module Lib.CircuitType where
 
 import Data.Foldable1 qualified as S
 import Data.Kind (Type)
+import Data.List (intercalate)
+import Data.Proxy
 import Data.Sequence qualified as S
 import GHC.TypeNats
 import Lib.HList
-
-class BooleanFunction (f :: Nat -> Type) where
-    apply :: f a -> Vec a Bool -> Bool
-
-data FormulaFunc (n :: Nat) where
-    FAnd :: FormulaFunc n -> FormulaFunc n -> FormulaFunc n
-    FOr :: FormulaFunc n -> FormulaFunc n -> FormulaFunc n
-    FNot :: FormulaFunc n -> FormulaFunc n
-    FNode :: (i + 1 <= n) => VSNat i -> FormulaFunc n
-
-instance BooleanFunction FormulaFunc where
-    apply (FAnd l r) b = apply l b && apply r b
-    apply (FOr l r) b = apply l b || apply r b
-    apply (FNot l) b = not $ apply l b
-    apply (FNode e) b = indexVS e b
+import Text.Printf (printf)
 
 data CircuitFunc (k :: Nat) (n :: Nat) where
     EmptyCircuit :: CircuitFunc 0 n
@@ -37,6 +25,29 @@ data CircuitFunc (k :: Nat) (n :: Nat) where
     AndStatement :: ((1 <= i), (1 <= j), (i <= k - 1), (j <= k - 1)) => VSNat i -> VSNat j -> CircuitFunc (k - 1) n -> CircuitFunc k n
     OrStatement :: ((1 <= i), (1 <= j), (i <= k - 1), (j <= k - 1)) => VSNat i -> VSNat j -> CircuitFunc (k - 1) n -> CircuitFunc k n
     NotStatement :: (i <= k - 1, 1 <= i) => VSNat i -> CircuitFunc (k - 1) n -> CircuitFunc k n
+
+instance (KnownNat k, KnownNat n) => Show (CircuitFunc k n) where
+    show x = (printf "[CircuitFunc %d %d: " kVal nVal) ++ "(" ++ intercalate ", " ((reverse . show') x) ++ ")" ++ "]"
+      where
+        kVal = natVal (Proxy @k)
+        nVal = natVal (Proxy @n)
+
+show' :: CircuitFunc k n -> [String]
+show' EmptyCircuit = ["0"]
+show' (Input x y) = printf "Input %d" ind : show' y
+  where
+    ind = evalVS x
+show' (AndStatement x y r) = printf "%d * %d" indL indR : show' r
+  where
+    indL = evalVS x
+    indR = evalVS y
+show' (OrStatement x y r) = printf "%d + %d" indL indR : show' r
+  where
+    indL = evalVS x
+    indR = evalVS y
+show' (NotStatement x r) = printf "! %d" indL : show' r
+  where
+    indL = evalVS x
 
 newtype BoolCircuit (n :: Nat) = BoolCircuit (CircuitFunc (n + 1) n)
 
@@ -51,17 +62,17 @@ evalCirc (Input s r) b v = evalCirc r b v S.:|> indexVS s b
 evalCirc (AndStatement firstInd secInd rest) b v = m S.:|> result
   where
     m = evalCirc rest b v
-    i1 = toVSInt firstInd
-    i2 = toVSInt secInd
+    i1 = evalVS firstInd - 1
+    i2 = evalVS secInd - 1
     result = m `S.index` i1 && m `S.index` i2
 evalCirc (OrStatement firstInd secInd rest) b v = m S.:|> result
   where
     m = evalCirc rest b v
-    i1 = toVSInt firstInd
-    i2 = toVSInt secInd
+    i1 = evalVS firstInd - 1
+    i2 = evalVS secInd - 1
     result = m `S.index` i1 || m `S.index` i2
 evalCirc (NotStatement firstInd rest) b v = m S.:|> result
   where
     m = evalCirc rest b v
-    i1 = toVSInt firstInd
+    i1 = evalVS firstInd - 1
     result = not $ m `S.index` i1

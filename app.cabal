@@ -14,7 +14,9 @@ build-type:     Simple
 
 library
   exposed-modules:
-      Lib.CircuitType
+      Lib.ComputationModels.CircuitType
+      Lib.ComputationModels.ClassDefs
+      Lib.ComputationModels.FormulaType
       Lib.HList
       Lib.PPAD.EolDef
   other-modules:
@@ -24,6 +26,8 @@ library
   build-depends:
       base
     , containers
+    , ghc-typelits-extra
+    , ghc-typelits-knownnat
     , ghc-typelits-natnormalise
   default-language: GHC2024
 
@@ -38,6 +42,8 @@ executable app
       app
     , base
     , containers
+    , ghc-typelits-extra
+    , ghc-typelits-knownnat
     , ghc-typelits-natnormalise
     , gloss
   default-language: GHC2024
@@ -46,7 +52,9 @@ test-suite spec
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      Lib.CircuitType
+      Lib.ComputationModels.CircuitType
+      Lib.ComputationModels.ClassDefs
+      Lib.ComputationModels.FormulaType
       Lib.HList
       Lib.PPAD.EolDef
       Paths_app
@@ -57,6 +65,8 @@ test-suite spec
   build-depends:
       base
     , containers
+    , ghc-typelits-extra
+    , ghc-typelits-knownnat
     , ghc-typelits-natnormalise
     , hedgehog
     , tasty

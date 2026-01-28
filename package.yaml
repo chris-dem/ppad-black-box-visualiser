@@ -6,6 +6,8 @@ category: Web
 dependencies:
   - base
   - ghc-typelits-natnormalise
+  - ghc-typelits-knownnat
+  - ghc-typelits-extra
   - containers
 
 # Hpack generates .cabal version automatically.
