@@ -9,6 +9,12 @@ dependencies:
   - ghc-typelits-knownnat
   - ghc-typelits-extra
   - containers
+  - random
+  - mtl
+  - linear
+  - optics
+  - MonadRandom
+  - monad-loops
 
 # Hpack generates .cabal version automatically.
 #

@@ -32,6 +32,7 @@ mkSS ::
     VSNat (Mod n 2) ->
     VSNat (Div n 2) ->
     VSNat n
+
 mkSS = unsafeCoerce (SS @n)
 
 evalVS :: VSNat n -> Int

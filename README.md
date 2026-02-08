@@ -1,4 +1,4 @@
-# Haskell-TUI-Drawing-App
+# ppad-black-box-visualiser-haskell
 
 ## Ideas
 
@@ -13,5 +13,3 @@ Might wanna think how I can add like time/rendering but will let it suffice for 
 
 
 Could also extend to other TFNP classes such as CLS/PLS etc.
-
-# ppad-black-box-visualiser

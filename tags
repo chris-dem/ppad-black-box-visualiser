@@ -1,5 +1,5 @@
 !_TAG_FILE_SORTED	1	//
-:#	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	65;"	C
+:#	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	66;"	C
 <+>	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	1959;"	o
 <=>	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	1970;"	o
 @@=	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Forms.hs	255;"	o
@@ -90,6 +90,8 @@ CustomAttr	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/
 CustomEvent	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/AnimationDemo.hs	26;"	t
 CustomEvent	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/CustomEventDemo.hs	36;"	t
 CustomEvent	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/TailDemo.hs	99;"	t
+DEdge	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	20;"	t
+DGraphClass	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	48;"	c
 DecodeUtf8	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Edit.hs	106;"	c
 DecrementEvent	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/CustomKeybindingDemo.hs	34;"	C
 Dialog	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Dialog.hs	66;"	t
@@ -110,6 +112,8 @@ Editor	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-
 EmptyCircuit	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/CircuitType.hs	41;"	C
 EmptyCircuit	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/ComputationModels/CircuitType.hs	24;"	C
 EolDef	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/PPAD/EolDef.hs	10;"	m
+ErdosGenerators	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/ErdosGenerators.hs	3;"	m
+ErdosRenyi	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/ErdosGenerators.hs	13;"	t
 EventM	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/EventM.hs	25;"	t
 EventM	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/EventM.hs	7;"	m
 EventRO	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	411;"	t
@@ -119,13 +123,15 @@ ExpensiveWidget	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle
 Extent	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	284;"	t
 FAnd	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/CircuitType.hs	29;"	C
 FAnd	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/ComputationModels/FormulaType.hs	24;"	C
-FNil	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	64;"	C
+FNil	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	65;"	C
 FNode	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/CircuitType.hs	32;"	C
 FNode	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/ComputationModels/FormulaType.hs	27;"	C
 FNot	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/CircuitType.hs	31;"	C
 FNot	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/ComputationModels/FormulaType.hs	26;"	C
 FOr	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/CircuitType.hs	30;"	C
 FOr	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/ComputationModels/FormulaType.hs	25;"	C
+FRForce	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphVisualisation/FRForce.hs	19;"	t
+FRForce	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphVisualisation/FRForce.hs	4;"	m
 FileBrowser	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/FileBrowser.hs	178;"	t
 FileBrowser	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/FileBrowser.hs	52;"	m
 FileBrowser1	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/FileBrowserDemo.hs	38;"	C
@@ -146,7 +152,20 @@ Forms	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-1
 FormulaFunc	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/CircuitType.hs	28;"	t
 FormulaFunc	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/ComputationModels/FormulaType.hs	23;"	t
 FormulaType	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/ComputationModels/FormulaType.hs	11;"	m
+FromInt	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/GraphGeneratorClass.hs	6;"	c
+GPClass	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GPClass.hs	1;"	m
+GPClass	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphPositionAlg/GPClass.hs	1;"	m
+GVisClass	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphVisualisation/GVisClass.hs	1;"	m
 GenericList	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/List.hs	127;"	t
+GraphClass	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	35;"	c
+GraphClass	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	3;"	m
+GraphGenerationClass	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/GraphGenerationClass .hs	1;"	m
+GraphGenerator	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/GraphGenerationClass .hs	5;"	c
+GraphGenerator	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/GraphGeneratorClass.hs	15;"	c
+GraphGeneratorClass	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/GraphGeneratorClass.hs	1;"	m
+GraphPositioner	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GPClass.hs	4;"	c
+GraphPositioner	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphPositionAlg/GPClass.hs	4;"	c
+GraphVisualisation	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphVisualisation/GVisClass.hs	9;"	c
 Greedy	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	127;"	C
 Green	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/DialogDemo.hs	25;"	C
 GreenButton	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/DialogDemo.hs	31;"	C
@@ -165,6 +184,7 @@ Horizontal	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/
 I	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/tests/Main.hs	48;"	t
 IMap	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Data/IMap.hs	35;"	t
 IMap	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Data/IMap.hs	4;"	m
+IdxInt	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/GraphGeneratorClass.hs	9;"	t
 Image	/Users/christosdemetriou/projects/hask-tui-drawing/lib/Lib.hs	3;"	t
 Image	/Users/christosdemetriou/projects/hask-tui-drawing/lib/Lib/Image.hs	21;"	t
 Image	/Users/christosdemetriou/projects/hask-tui-drawing/lib/Image.hs	1;"	m
@@ -251,6 +271,7 @@ MultiBooleanFunction	/Users/christosdemetriou/projects/ppad-black-box-visualiser
 MultiBooleanFunction	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/ComputationModels/ClassDefs.hs	21;"	c
 MultiFormula	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/ComputationModels/FormulaType.hs	29;"	t
 MyAppState	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/ProgressBarDemo.hs	30;"	t
+MyMonad	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/ErdosGenerators.hs	21;"	t
 Name	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/CacheDemo.hs	37;"	t
 Name	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/DialogDemo.hs	28;"	t
 Name	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/EditDemo.hs	26;"	t
@@ -374,6 +395,10 @@ Time	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11
 ToBinding	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Keybindings/KeyConfig.hs	220;"	c
 Topos	/Users/christosdemetriou/projects/hask-tui-drawing/lib/Lib/CoordAlg.hs	23;"	t
 Types	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types.hs	4;"	m
+UEdge	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	19;"	t
+UGraphClass	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	45;"	c
+USGraph	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	16;"	C
+USparseGraph	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	16;"	t
 Unbound	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Keybindings/KeyConfig.hs	84;"	C
 UnixSocket	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/FileBrowser.hs	254;"	C
 Up	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	297;"	C
@@ -396,8 +421,9 @@ VScrollPage	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp
 VScrollToBeginning	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	112;"	C
 VScrollToEnd	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	113;"	C
 VScrollbarRenderer	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	170;"	t
-Vec	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	63;"	t
+Vec	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	64;"	t
 Verbatim	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Keybindings/Pretty.hs	39;"	C
+VertexType	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	36;"	F
 Vertical	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	255;"	C
 Viewport	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	240;"	t
 ViewportScroll	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Main.hs	556;"	t
@@ -490,8 +516,10 @@ actionFileBrowserSelectEnter	/Users/christosdemetriou/projects/hask-tui-drawing/
 addBorders	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Table.hs	269;"	f
 addCursorOffset	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	266;"	f
 addDynBorderOffset	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	227;"	f
+addEdge	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	43;"	f
 addExtentOffset	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	224;"	f
 addModifier	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Keybindings/KeyConfig.hs	233;"	f
+addNode	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	42;"	f
 addOffset	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Animation/Clock.hs	41;"	f
 addP	/Users/christosdemetriou/projects/hask-tui-drawing/lib/Lib/CoordAlg.hs	40;"	f
 addResultOffset	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	215;"	f
@@ -785,6 +813,7 @@ dialogSelection	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle
 dialogTitle	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Dialog.hs	67;"	f
 dialogWidth	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Dialog.hs	71;"	f
 dims	/Users/christosdemetriou/projects/hask-tui-drawing/lib/Lib.hs	5;"	f
+distConstraint	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphVisualisation/FRForce.hs	20;"	f
 doubleHorizontal	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/DynamicBorderDemo.hs	13;"	f
 draw	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/FormDemo.hs	102;"	f
 draw	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/TailDemo.hs	28;"	f
@@ -829,7 +858,10 @@ dynlibdir	/Users/christosdemetriou/projects/ppad-black-box-visualiser/dist-newst
 eBottom	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Common.hs	51;"	f
 eLeft	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Common.hs	51;"	f
 eRight	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Common.hs	51;"	f
+eSize	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	39;"	f
 eTop	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Common.hs	51;"	f
+edgeSetD	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	51;"	f
+edgeSetU	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	46;"	f
 editAttr	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Edit.hs	197;"	f
 editContents	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Edit.hs	85;"	f
 editField	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Forms.hs	527;"	f
@@ -855,7 +887,7 @@ errorAttr	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/s
 esScrollRequests	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	269;"	f
 evalCirc	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/CircuitType.hs	77;"	f
 evalCirc	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/ComputationModels/CircuitType.hs	60;"	f
-evalVS	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	37;"	f
+evalVS	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	38;"	f
 eventDescriptionAttr	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Keybindings/Pretty.hs	243;"	f
 eventNameAttr	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Keybindings/Pretty.hs	239;"	f
 eventViewportMap	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	411;"	f
@@ -922,6 +954,7 @@ forceAttr	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/s
 forceAttrAllowStyle	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	1035;"	f
 forceAttrMap	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/AttrMap.hs	105;"	f
 forceAttrMapAllowStyle	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/AttrMap.hs	110;"	f
+forceLimit	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphVisualisation/FRForce.hs	21;"	f
 formAttr	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Forms.hs	687;"	f
 formConcatAll	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Forms.hs	236;"	f
 formFieldConcat	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Forms.hs	206;"	f
@@ -943,7 +976,11 @@ formState	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/s
 forwardToCurrent	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Forms.hs	937;"	f
 frameUpdateAction	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Animation.hs	418;"	f
 freezeBorders	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	199;"	f
+fromInt	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/GraphGeneratorClass.hs	7;"	f
 fromList	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Data/IMap.hs	172;"	f
+genGraph	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/GraphGenerationClass .hs	6;"	f
+genGraphD	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/GraphGeneratorClass.hs	17;"	f
+genGraphU	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/GraphGeneratorClass.hs	16;"	f
 generateLines	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/TailDemo.hs	121;"	f
 getBinDir	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/build/autogen/Paths_app.hs	67;"	f
 getBinDir	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/t/spec/build/spec/autogen/Paths_app.hs	67;"	f
@@ -1013,6 +1050,8 @@ getVtyContext	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/t
 getVtyHandle	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Main.hs	486;"	f
 getWorkingDirectory	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/FileBrowser.hs	456;"	f
 globalDefault	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/AttrDemo.hs	57;"	f
+graphVisD	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphVisualisation/GVisClass.hs	11;"	f
+graphVisU	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphVisualisation/GVisClass.hs	10;"	f
 hBorder	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Border.hs	113;"	f
 hBorderAttr	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Border.hs	50;"	f
 hBorderWithLabel	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Border.hs	127;"	f
@@ -1065,8 +1104,9 @@ image	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-1
 imagePrimary	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	546;"	f
 imageSecondary	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	547;"	f
 imap	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/List.hs	326;"	f
-indexVS	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	78;"	f
-indexVS'	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	83;"	f
+inNeigh	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	49;"	f
+indexVS	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	79;"	f
+indexVS'	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	84;"	f
 infoLayer	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/MouseDemo.hs	74;"	f
 initialRows	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/TabularListDemo.hs	129;"	f
 initialState	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/CustomEventDemo.hs	62;"	f
@@ -1104,6 +1144,7 @@ isPathSeparator	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle
 isPathSeparator	/Users/christosdemetriou/projects/ppad-black-box-visualiser/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/build/autogen/Paths_app.hs	131;"	f
 isPathSeparator	/Users/christosdemetriou/projects/ppad-black-box-visualiser/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/t/spec/build/spec/autogen/Paths_app.hs	131;"	f
 isPathSeparator	/Users/christosdemetriou/projects/ppad-black-box-visualiser/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/x/app/build/app/autogen/Paths_app.hs	131;"	f
+itLimit	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphVisualisation/FRForce.hs	22;"	f
 joinBorders	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	179;"	f
 joinFileName	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/build/autogen/Paths_app.hs	115;"	f
 joinFileName	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/t/spec/build/spec/autogen/Paths_app.hs	115;"	f
@@ -1278,6 +1319,7 @@ meta	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11
 middleLayer	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/LayerDemo.hs	62;"	f
 minTickTime	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Animation.hs	495;"	f
 mkBorderDemo	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/BorderDemo.hs	63;"	f
+mkErdosRenyi	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphGeneration/ErdosGenerators.hs	16;"	f
 mkExample	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/CroppingDemo.hs	33;"	f
 mkForm	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/FormDemo.hs	72;"	f
 mkHandler	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Keybindings/KeyDispatcher.hs	190;"	f
@@ -1297,6 +1339,7 @@ name	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11
 name	/Users/christosdemetriou/projects/ppad-black-box-visualiser/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/build/autogen/PackageInfo_app.hs	32;"	f
 name	/Users/christosdemetriou/projects/ppad-black-box-visualiser/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/t/spec/build/spec/autogen/PackageInfo_app.hs	32;"	f
 name	/Users/christosdemetriou/projects/ppad-black-box-visualiser/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/x/app/build/app/autogen/PackageInfo_app.hs	32;"	f
+neigh	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	40;"	f
 neighbors	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/BorderMap.hs	30;"	f
 nestEventM	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types.hs	128;"	f
 nestEventM'	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types.hs	118;"	f
@@ -1325,6 +1368,7 @@ onKey	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-1
 op	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/tests/List.hs	77;"	f
 origin	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Common.hs	41;"	f
 otherSectionName	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Themes.hs	166;"	f
+outNeigh	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	50;"	f
 overrideAttr	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	1064;"	f
 padAll	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	476;"	f
 padBottom	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	450;"	f
@@ -1528,7 +1572,7 @@ show'	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/Comput
 showCursor	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	1207;"	f
 showCursorNamed	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Main.hs	549;"	f
 showFirstCursor	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Main.hs	544;"	f
-showVS	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	58;"	f
+showVS	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	59;"	f
 shutdownVtyContext	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Main.hs	336;"	f
 shutdownVtyContextThread	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Main.hs	341;"	f
 simpleApp	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Main.hs	156;"	f
@@ -1622,7 +1666,7 @@ themeToAttrMap	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/
 tickThreadBody	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Animation.hs	269;"	f
 timeToMs	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Animation/Clock.hs	55;"	f
 titleAttr	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/BorderDemo.hs	72;"	f
-toList	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	73;"	f
+toList	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	74;"	f
 toPassword	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Forms.hs	683;"	f
 toRGB	/Users/christosdemetriou/projects/hask-tui-drawing/app/Main.hs	93;"	f
 toggleAnimationFromConfig	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/AnimationDemo.hs	157;"	f
@@ -1674,10 +1718,11 @@ vScrollPage	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp
 vScrollToBeginning	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Main.hs	579;"	f
 vScrollToEnd	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Main.hs	581;"	f
 vSize	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	136;"	f
+vSize	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	38;"	f
 val	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Data/IMap.hs	78;"	f
 values	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/BorderMap.hs	95;"	f
-vconc	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	90;"	f
-vecAp	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	135;"	f
+vconc	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	91;"	f
+vecAp	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	136;"	f
 version	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/build/autogen/PackageInfo_app.hs	35;"	f
 version	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/build/autogen/Paths_app.hs	52;"	f
 version	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/t/spec/build/spec/autogen/PackageInfo_app.hs	35;"	f
@@ -1692,6 +1737,7 @@ version	/Users/christosdemetriou/projects/ppad-black-box-visualiser/dist-newstyl
 version	/Users/christosdemetriou/projects/ppad-black-box-visualiser/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/t/spec/build/spec/autogen/Paths_app.hs	52;"	f
 version	/Users/christosdemetriou/projects/ppad-black-box-visualiser/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/x/app/build/app/autogen/PackageInfo_app.hs	35;"	f
 version	/Users/christosdemetriou/projects/ppad-black-box-visualiser/dist-newstyle/build/aarch64-osx/ghc-9.12.2/app-0.1.0.0/x/app/build/app/autogen/Paths_app.hs	52;"	f
+vertexList	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/GraphLibs/GraphClass.hs	41;"	f
 verticalScrollbar	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	1630;"	f
 verticalScrollbar'	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	1671;"	f
 verticalScrollbarRenderer	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Widgets/Core.hs	1301;"	f
@@ -1715,10 +1761,10 @@ vp3Scroll	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/s
 vp3Size	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/programs/VisibilityDemo.hs	54;"	f
 vrPosition	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	233;"	f
 vrSize	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	234;"	f
-vrepeat	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	126;"	f
-vrepeat'	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	115;"	f
-vrepeatInt	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	120;"	f
-vsFromType	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	42;"	f
+vrepeat	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	127;"	f
+vrepeat'	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	116;"	f
+vrepeatInt	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	121;"	f
+vsFromType	/Users/christosdemetriou/projects/ppad-black-box-visualiser/lib/Lib/HList.hs	43;"	f
 vtyColorName	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Themes.hs	336;"	f
 vtyContext	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	273;"	f
 vtyContextBuilder	/Users/christosdemetriou/projects/hask-tui-drawing/dist-newstyle/tmp/src-11105/brick-2.10/src/Brick/Types/Internal.hs	277;"	f

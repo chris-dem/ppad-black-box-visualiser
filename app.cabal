@@ -17,6 +17,11 @@ library
       Lib.ComputationModels.CircuitType
       Lib.ComputationModels.ClassDefs
       Lib.ComputationModels.FormulaType
+      Lib.GraphLibs.GraphClass
+      Lib.GraphLibs.GraphGeneration.ErdosGenerators
+      Lib.GraphLibs.GraphGeneration.GraphGeneratorClass
+      Lib.GraphLibs.GraphVisualisation.FRForce
+      Lib.GraphLibs.GraphVisualisation.GVisClass
       Lib.HList
       Lib.PPAD.EolDef
   other-modules:
@@ -24,11 +29,17 @@ library
   hs-source-dirs:
       lib
   build-depends:
-      base
+      MonadRandom
+    , base
     , containers
     , ghc-typelits-extra
     , ghc-typelits-knownnat
     , ghc-typelits-natnormalise
+    , linear
+    , monad-loops
+    , mtl
+    , optics
+    , random
   default-language: GHC2024
 
 executable app
@@ -39,13 +50,19 @@ executable app
       app
   ghc-options: -threaded
   build-depends:
-      app
+      MonadRandom
+    , app
     , base
     , containers
     , ghc-typelits-extra
     , ghc-typelits-knownnat
     , ghc-typelits-natnormalise
     , gloss
+    , linear
+    , monad-loops
+    , mtl
+    , optics
+    , random
   default-language: GHC2024
 
 test-suite spec
@@ -55,6 +72,11 @@ test-suite spec
       Lib.ComputationModels.CircuitType
       Lib.ComputationModels.ClassDefs
       Lib.ComputationModels.FormulaType
+      Lib.GraphLibs.GraphClass
+      Lib.GraphLibs.GraphGeneration.ErdosGenerators
+      Lib.GraphLibs.GraphGeneration.GraphGeneratorClass
+      Lib.GraphLibs.GraphVisualisation.FRForce
+      Lib.GraphLibs.GraphVisualisation.GVisClass
       Lib.HList
       Lib.PPAD.EolDef
       Paths_app
@@ -63,12 +85,18 @@ test-suite spec
       lib
   cpp-options: -DTest
   build-depends:
-      base
+      MonadRandom
+    , base
     , containers
     , ghc-typelits-extra
     , ghc-typelits-knownnat
     , ghc-typelits-natnormalise
     , hedgehog
+    , linear
+    , monad-loops
+    , mtl
+    , optics
+    , random
     , tasty
     , tasty-hedgehog
     , tasty-hunit

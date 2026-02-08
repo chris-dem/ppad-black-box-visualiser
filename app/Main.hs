@@ -12,7 +12,7 @@ bgColour :: Color
 bgColour = black
 
 drawing :: Picture
-drawing = color white $ circle 80
+drawing = color white $ thickCircle 80 5
 
 main :: IO ()
 main = display window bgColour drawing
